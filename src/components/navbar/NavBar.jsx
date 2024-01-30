@@ -14,7 +14,7 @@ const navItems = [
 	},
 	{
 		id: 2,
-		name: 'works',
+		name: 'projects',
 	},
 	{
 		id: 3,
