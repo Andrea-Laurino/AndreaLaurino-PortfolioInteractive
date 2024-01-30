@@ -1,12 +1,7 @@
 import React from 'react';
-import {
-	AiFillTwitterCircle,
-	AiFillGithub,
-	AiFillInstagram,
-} from 'react-icons/ai';
+import { AiFillGithub } from 'react-icons/ai';
 import { FaTelegram, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
 import { FiDownload } from 'react-icons/fi';
-import { FaPlay } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import resumePDF from '../../assets/Resume.pdf';
 
