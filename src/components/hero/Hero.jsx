@@ -35,10 +35,11 @@ const Hero = () => {
 							className="text-sky-500 text-4xl font-bold sm:text-3xl"
 						/>
 						<p className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]">
-							I'm Andrea, a healthcare professional turned Front-End Developer.
-							Currently in training, seeking opportunities in Front-End or
-							Testing. Focused on applying my skills and exploring frameworks.
-							Eager to contribute to digital solutions in a dynamic team.
+							I'm Andrea, a healthcare professional turned Front-End Developer,
+							currently in constant training and seeking opportunities in
+							Front-End or Manual Testing QA. I am focused on applying my skills
+							and exploring frameworks, and I am eager to contribute to digital
+							solutions in a dynamic team.
 						</p>
 					</div>
 					<div data-aos="fade-up" className="buttons flex gap-5">
