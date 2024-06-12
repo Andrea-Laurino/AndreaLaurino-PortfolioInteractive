@@ -3,7 +3,7 @@ import { AiFillGithub } from 'react-icons/ai';
 import { FaTelegram, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
 import { FiDownload } from 'react-icons/fi';
 import { TypeAnimation } from 'react-type-animation';
-import resumePDF from '../../assets/Resume.pdf';
+import resumePDF from '../../assets/AndreajLaurino-QA-Manual.pdf';
 
 const Hero = () => {
 	return (
@@ -22,24 +22,20 @@ const Hero = () => {
 						</h2>
 						<TypeAnimation
 							data-aos="fade-up"
-							sequence={[
-								'Web Developer',
-								2000,
-								'Full Stack Developer',
-								2000,
-								'',
-							]}
+							sequence={['Tester QA Manual', 2000, 'Web Developer', 2000, '']}
 							speed={30}
 							wrapper="h2"
 							repeat={Infinity}
 							className="text-sky-500 text-4xl font-bold sm:text-3xl"
 						/>
 						<p className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]">
-							I'm Andrea, a healthcare professional turned Front-End Developer,
-							currently in constant training and seeking opportunities in
-							Front-End or Manual Testing QA. I am focused on applying my skills
-							and exploring frameworks, and I am eager to contribute to digital
-							solutions in a dynamic team.
+							I'm Andrea, a healthcare professional who has transitioned into
+							the role of QA Manual Tester. Currently, I'm seeking my first
+							opportunity in the IT sector, where I have discovered a genuine
+							passion for product quality. I'm continuously learning and
+							refining my skills, and also focused on applying my expertise and
+							exploring new tools. I'm eager to contribute to high-quality
+							digital solutions within a dynamic team.
 						</p>
 					</div>
 					<div data-aos="fade-up" className="buttons flex gap-5">

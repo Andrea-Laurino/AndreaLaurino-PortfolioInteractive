@@ -35,6 +35,32 @@ const Resume = () => {
 							{/* design */}
 							<div className=" flex flex-col gap-1 sm:gap-1 border-2 border-sky-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
 								<h1 className="text-[1.4rem] font-semibold sm:text-xl">
+									Manual QA Tester
+								</h1>
+								<span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
+									Simulation No Country
+								</span>
+								<span className=" text-[.9rem] font-semibold text-sky-500 sm:text-base">
+									March 2024 - Present
+								</span>
+								<p className=" text-[.9rem] text-justify break-words text-gray-500">
+									Document my development, create, and design Test Plans, Test
+									Cases, and execution schedules to ensure software quality and
+									functionality.
+								</p>
+								<p className=" text-[.9rem] text-justify break-words text-gray-500">
+									I bring experience as a QA Manual Tester, ensuring software
+									quality and proactively resolving issues. I engage closely
+									with development teams to conduct thorough regression testing.
+									Proficient in utilizing tools such as Testlink, Jira, Postman,
+									and Lighthouse, I efficiently manage testing processes.
+									Additionally, I actively contribute to designing testing
+									procedures, maintain comprehensive documentation, and offer
+									constructive feedback to enhance overall software quality.
+								</p>
+							</div>
+							<div className=" flex flex-col gap-1 sm:gap-1 border-2 border-sky-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+								<h1 className="text-[1.4rem] font-semibold sm:text-xl">
 									Web Developer
 								</h1>
 								<span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
@@ -49,22 +75,6 @@ const Resume = () => {
 									Tailwind, MUI. Experienced in MongoDB, Firebase, MySQL
 									databases, and proficient in creating RESTful APIs using
 									Handlebars and Nest.js.
-								</p>
-							</div>
-							<div className=" flex flex-col gap-1 sm:gap-1 border-2 border-sky-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
-								<h1 className="text-[1.4rem] font-semibold sm:text-xl">
-									Administrative
-								</h1>
-								<span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-									Consultorio Odontologico Vernisse
-								</span>
-								<span className=" text-[.9rem] font-semibold text-sky-500 sm:text-base">
-									January 2020 - June 2022
-								</span>
-								<p className=" text-[.9rem] text-justify break-words text-gray-500">
-									As an administrative and dental assistant, I handle reception
-									duties, schedule appointments, provide support to the dentist,
-									and manage records.
 								</p>
 							</div>
 						</div>
@@ -103,13 +113,10 @@ const Resume = () => {
 								</p>
 								<a
 									href="https://www.coderhouse.com/certificados/65a03882c47b9e49b79a8e65?lang=en"
-									className="w-40 text-center bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-sky-500"
+									className="w-40 ml-[50%] translate-x-[-50%] text-center bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-sky-500"
 								>
 									<span>Certificate</span>
 								</a>
-								{/* <button className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-sky-500">
-								Certificate 
-								</button> */}
 							</div>
 							<div className=" flex flex-col gap-1 border-2 border-sky-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
 								<h1 className="text-[1.4rem] font-semibold sm:text-xl">
@@ -129,14 +136,11 @@ const Resume = () => {
 									before release.
 								</p>
 								<a
-									href=""
-									className="w-40 text-center bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-sky-500"
+									href="https://www.coderhouse.com/certificados/65f347275e329c35748758ac?lang=en"
+									className="w-40 ml-[50%] translate-x-[-50%] text-center bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-sky-500"
 								>
 									<span>Certificate</span>
 								</a>
-								{/* <button className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-sky-500">
-								Certificate 
-								</button> */}
 							</div>
 						</div>
 					</fieldset>

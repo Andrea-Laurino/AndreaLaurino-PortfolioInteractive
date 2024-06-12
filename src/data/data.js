@@ -33,8 +33,16 @@ export const data = [
   //   link: "https://juego-dino-rex.vercel.app/",
   //   git: "https://github.com/Andrea-Laurino/JuegoDinoRex",
   // },
+  // {
+  //   id: 4,
+  //   img: 'https://i.postimg.cc/zB1Tdk21/DinoGame.jpg',
+  //   title: "Juego Dino Chrome",
+  //   desc: "Se trata de un proyecto emocionante desarrollado completamente con JavaScript puro. Es el famoso juego que aparece cuando se corta internet y ha sido una excelente oportunidad para aplicar y recordar conceptos clave.",
+  //   link: "https://juego-dino-rex.vercel.app/",
+  //   git: "https://github.com/Andrea-Laurino/JuegoDinoRex",
+  // },
   {
-    id: 5,
+    id: 4,
     img: 'https://i.postimg.cc/rsVxTwLn/Clon-Instagram.jpg',
     title: "Clon de Instagram",
     desc: "In this project, React.js, Vite, and Firebase (Auth, Firebase, Firestore) were employed to create a functional application adaptable to different devices.",
@@ -42,7 +50,7 @@ export const data = [
     git: "https://github.com/Andrea-Laurino/Clon-de-Instagram",
   },
   {
-    id: 6,
+    id: 5,
     img: 'https://i.postimg.cc/nrBhjdjB/Portfolio1.jpg',
     title: "Portfolio Personal",
     desc: "My first portfolio project, developed to kickstart my professional career, uses React.js, Vite, Bootstrap React, Sweet Alert2, React-icon, animates.css, and email.js. These technologies contributed to creating an attractive and functional frontend application.",
@@ -58,20 +66,28 @@ export const data = [
   //   git: "https://github.com/Andrea-Laurino/Clon-de-Spotify",
   // },
   {
-    id: 8,
+    id: 6,
     img: 'https://i.postimg.cc/m2dNbCkQ/The-Beauty.jpg',
     title: "The Beauty Shop",
     desc: "Final Full Stack project: eCommerce with custom API, Node.js Express.js, WebSocket, Handlebars, JWT, MongoDB. Layered architecture, persistence, unit testing, Supertest, Artillery, integrated documentation, and logging",
     link: "https://proyectofinalbackend55535-production.up.railway.app/",
     git: "https://github.com/Andrea-Laurino/proyecto_final_backend_55535",
-  }
-  // {
-  //   id: 9,
-  //   img: 'https://i.postimg.cc/wBjcJcW7/5890625.jpg',
-  //   title: "Portfolio interactivo",
-  //   desc: "",
-  //   link: "https://proyectofinalbackend55535-production.up.railway.app/",
-  //   git: "https://github.com/Andrea-Laurino/proyecto_final_backend_55535",
-  // }
+  },
+  {
+    id: 7,
+    img: 'https://i.postimg.cc/sx59vCXq/Twelve-Finance.jpg',
+    title: "Twelve Finance",
+    desc: "This is a collaborative project carried out in No-Country, in which I participated in the QA team as a manual tester. This platform belongs to a digital bank called Twelve Finance, where you can check your balance, receive notifications, and make transfers to other accounts.",
+    link: "https://heroic-taffy-acda4a.netlify.app/",
+    git: "https://github.com/No-Country/twelve-finance/tree/develop",
+  },
+  {
+    id: 7,
+    img: 'https://i.postimg.cc/9fpkQS0L/WoodWork.jpg',
+    title: "WoodWork",
+    desc: "This is a collaborative project carried out in No-Country, in which I participated in the QA team as a manual tester. This platform connects professionals with coworking spaces in specific areas. Our mission is to make finding, booking, and managing shared workspaces simple and convenient.",
+    link: "https://woodwork-one.vercel.app/",
+    git: "https://github.com/No-Country/s15-17-t-java-angular",
+  },
 
 ];

@@ -45,7 +45,7 @@ const Footer = () => {
 				</div>
 				<div className="text-gray-300 sm:text-[12px]">
 					| Copyright &copy; <span>2024 Dev Laurino Andrea </span> All rights
-					reserved
+					reserved |
 				</div>
 			</div>
 		</div>
