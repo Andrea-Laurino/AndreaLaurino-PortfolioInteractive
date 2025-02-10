@@ -3,7 +3,7 @@ import { AiFillGithub } from 'react-icons/ai';
 import { FaTelegram, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
 import { FiDownload } from 'react-icons/fi';
 import { TypeAnimation } from 'react-type-animation';
-import resumePDF from '../../assets/AndreajLaurino-QA-Manual.pdf';
+import resumePDF from '../../assets/AndreaJLaurino-TesterQA-cvA.pdf';
 
 const Hero = () => {
 	return (
@@ -18,40 +18,28 @@ const Hero = () => {
 							data-aos="fade-up"
 							className=" text-5xl font-bold sm:text-[2rem]"
 						>
-							Hi, I'm Andrea Laurino
+							Hola, Soy Andrea 
 						</h2>
 						<TypeAnimation
 							data-aos="fade-up"
-							sequence={['Tester QA Manual', 2000, 'Web Developer', 2000, '']}
+							sequence={['QA Manual ✍🏼', 2000, 'QA Automation 🦾', 2000, '']}
 							speed={30}
 							wrapper="h2"
 							repeat={Infinity}
 							className="text-sky-500 text-4xl font-bold sm:text-3xl"
 						/>
 						<p className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]">
-							I'm Andrea, a healthcare professional who has transitioned into
-							the role of QA Manual Tester. Currently, I'm seeking my first
-							opportunity in the IT sector, where I have discovered a genuine
-							passion for product quality. I'm continuously learning and
-							refining my skills, and also focused on applying my expertise and
-							exploring new tools. I'm eager to contribute to high-quality
-							digital solutions within a dynamic team.
+						Con una gran pasión por la tecnología y la innovación, decidí dar el salto al mundo IT como Tester QA. Mi trayectoria incluye tanto pruebas manuales como automatizadas utilizando Cypress y JavaScript. Gracias a mi enfoque en asegurar la calidad del software y en la mejora constante, junto con mi experiencia en desarrollo Full Stack (MERN), tengo una comprensión profunda de los procesos de programación. Esto me permite ofrecer un valor agregado al identificar y prevenir posibles errores de manera efectiva.
 						</p>
 					</div>
-					<div data-aos="fade-up" className="buttons flex gap-5">
-						<a
-							href="https://www.linkedin.com/in/andrea-laurino/"
-							className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-sky-500"
-						>
-							<span> Hire Me</span>
-						</a>
+					<div data-aos="fade-up" className="buttons flex  gap-5">
 						<a
 							href={resumePDF}
 							className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-sky-500"
 							download
 						>
-							<div className="flex items-center gap-1">
-								Resume <FiDownload />
+							<div className="flex items-center ">
+								Currículum <FiDownload />
 							</div>
 						</a>
 					</div>
@@ -93,24 +81,9 @@ const Hero = () => {
 						<img
 							data-aos="fade-up"
 							className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-							src="https://i.postimg.cc/9MSZTmR4/imageedit-9-6472384627-removebg-preview.png"
-							alt="mine"
+							src="https://i.postimg.cc/Vk6bqYVC/Professional-and-Elegant-Depop-Profile-Picture-removebg-preview.png"
+							alt="Foto de Andrea Laurino"
 						/>
-						{/* //circulo interactivo full stack 
-						<div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
-							<div
-								data-aos="zoom-in"
-								data-aos-duration="1000"
-								className=" relative cursor-pointer"
-							>
-								<img
-									className=" w-[135px] md:w-[90px] circle-text"
-									src="https://ik.imagekit.io/imgkitt/tr:w-400/Full_Stack_Developer2.png?updatedAt=1683134009107"
-									alt=""
-								/>
-								<FaPlay className=" text-black absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]" />
-							</div>
-						</div> */}
 					</div>
 				</div>
 			</div>

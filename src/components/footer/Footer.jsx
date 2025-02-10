@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaTelegramPlane } from 'react-icons/fa';
 import { IoLogoWhatsapp } from 'react-icons/io';
-import { RiInstagramFill } from 'react-icons/ri';
+// import { RiInstagramFill } from 'react-icons/ri';
 
 const Footer = () => {
 	return (
@@ -9,9 +9,9 @@ const Footer = () => {
 			<div className=" bg-cyan-600 h-full flex flex-col gap-8 items-center justify-between p-10 sm:p-7">
 				<h2
 					data-aos="zoom-out"
-					className="text-gray-900 font-bold text-5xl sm:text-3xl"
+					className="text-gray-900 font-bold text-4xl sm:text-3xl"
 				>
-					Let's Talk
+					¡Me encantaría hablar contigo!
 				</h2>
 				<div className=" flex items-center justify-center gap-8 sm:gap-5">
 					<a
@@ -33,7 +33,7 @@ const Footer = () => {
 						<IoLogoWhatsapp className=" text-black text-3xl hover:scale-125 cursor-pointer" />
 						<p>WhatsApp</p>
 					</a>
-					<a
+					{/* <a
 						data-aos="fade-up"
 						data-aos-duration="1400"
 						href="https://www.instagram.com/andreajlaurino/"
@@ -41,10 +41,10 @@ const Footer = () => {
 					>
 						<RiInstagramFill className=" text-black text-3xl hover:scale-125 cursor-pointer" />
 						<p>Instagram</p>
-					</a>
+					</a> */}
 				</div>
 				<div className="text-gray-300 sm:text-[12px]">
-					| Copyright &copy; <span>2024 Dev Laurino Andrea </span> All rights
+					| Copyright &copy; <span>2025 Laurino Andrea </span> All rights
 					reserved |
 				</div>
 			</div>

@@ -9,7 +9,7 @@ const ProgressBar = ({ logo, name, value, duration = 3 }) => {
 					{logo} {name}
 				</p>{' '}
 				{/* <span className=" text-gray-400 text-[1.1rem] sm:text-[1rem] exsm:text-sm">
-          {value}%
+        {value}%
         </span> */}
 			</div>
 			<div className="h-[8px] w-[100%] relative rounded-3xl bg-gray-300">

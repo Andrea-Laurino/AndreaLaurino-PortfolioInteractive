@@ -5,7 +5,7 @@ import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 import '@sweetalert2/theme-material-ui/material-ui.scss';
 
-const serviceID = 'service_65s30z8';
+const serviceID = 'service_4bczh2b';
 const templateID = 'template_9819r49';
 const publicKey = 'ncZucwaJNs9CbMSD7';
 
@@ -17,8 +17,7 @@ const Contact = () => {
 
 		emailjs.sendForm(serviceID, templateID, form.current, publicKey).then(
 			(result) => {
-				//console.log(result.text);
-				Swal.fire({
+					Swal.fire({
 					title: '¡Gracias!',
 					text: 'Tu mensaje ha sido enviado. Te contactaré pronto.',
 					icon: 'success',
@@ -36,13 +35,13 @@ const Contact = () => {
 	};
 
 	return (
-		<div id="contact" className="container m-auto mt-16">
+		<div id="contacto" className="container m-auto mt-16">
 			{/* heading */}
 			<div className="relative mb-5">
 				<h3 className=" text-3xl font-black text-gray-400 sm:text-2xl">
-					Contact
+					Contacto
 				</h3>
-				<span className="h-[1.1px] right-0 absolute w-[92%] bg-gray-300 block"></span>
+				<span className="h-[1.1px] right-0 absolute  w-full bg-gray-300 block"></span>
 			</div>
 
 			{/* card*/}
@@ -50,11 +49,12 @@ const Contact = () => {
 				<div className="left w-[70%] flex-1 flex items-center justify-center sm:flex-col sm:w-full">
 					<div className="flex-3 w-1/2 gap-3 flex items-end justify-end  flex-col sm:w-3/4">
 						<div data-aos="zoom-in">
-							<h1 className="text-5xl font-bold sm:text-3xl">
-								Elevate your website{' '}
+							<h1 className="text-2xl sm:text-lg ">
+								Si consideras que mi perfil se ajusta a alguna oportunidad{' '}
 							</h1>
-							<h3 className="text-xl sm:text-lg">
-								with a stunning design. Simply submit a request!
+							
+							<h3 className="text-5xl font-bold sm:text-3xl">
+								No dudes en contactarme!
 							</h3>
 						</div>
 					</div>
@@ -77,14 +77,14 @@ const Contact = () => {
 						<input
 							className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
 							type="email"
-							placeholder="e.g. example@email.com"
+							placeholder="e.j. ejemplo@email.com"
 							name="user_email"
 							required
 						/>
 						<input
 							className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
 							type="text"
-							placeholder="e.g. Matias Perez"
+							placeholder="e.j. Matias Perez"
 							name="user_name"
 							required
 						/>
@@ -92,7 +92,7 @@ const Contact = () => {
 							className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
 							rows="4"
 							cols="50"
-							placeholder="Write your message"
+							placeholder="Escribe tu mensaje"
 							name="message"
 							id=""
 							required
@@ -102,7 +102,7 @@ const Contact = () => {
 							type="submit"
 							value="Send"
 						>
-							<span>Send</span>
+							<span>Enviar</span>
 							<RiSendPlaneFill />
 						</button>
 					</form>

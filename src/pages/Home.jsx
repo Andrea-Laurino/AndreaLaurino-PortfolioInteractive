@@ -6,6 +6,7 @@ import NavBar from "../components/navbar/NavBar";
 import Resume from "../components/resume/Resume";
 import Skills from "../components/skills/Skills";
 import Work from "../components/work/Work";
+import Education from "../components/education/Education";
 
 const Home = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -19,6 +20,7 @@ const Home = () => {
       <Skills darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Work darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Resume darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+      <Education darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Contact darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Footer darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
     </>

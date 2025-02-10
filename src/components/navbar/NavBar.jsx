@@ -14,15 +14,19 @@ const navItems = [
 	},
 	{
 		id: 2,
-		name: 'projects',
+		name: 'proyectos',
 	},
 	{
 		id: 3,
-		name: 'resume',
+		name: 'experiencia',
 	},
 	{
 		id: 4,
-		name: 'contact',
+		name: 'educación',
+	},
+	{
+		id: 5,
+		name: 'contacto',
 	},
 ];
 
@@ -62,7 +66,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
 						to="/"
 						className="text-3xl font-bold sm:text-3xl"
 					>
-						Andrea Laurino.
+						A J. Laurino.
 					</Link>
 				</div>
 				<div
@@ -82,7 +86,6 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
 							!isOpen ? 'md:flex' : 'md:right-[0%]'
 						} md:flex-col md:absolute m-auto md:top-0 md:right-[-100%] md:w-[78%] md:h-screen md:bg-white `}
 					>
-						{/* Use a button tag for better accessibility */}
 						<button
 							onClick={toggleNav}
 							className={`text-3xl hidden md:block relative right-0 top-4 container mx-auto`}

@@ -1,153 +1,134 @@
-import React from 'react';
+import React from "react";
 
 const Resume = () => {
-	return (
-		<div id="resume" className=" container m-auto   mt-16">
-			{/* heading */}
-			<div data-aos="fade-up" className="relative mb-5">
-				<h3 className=" text-3xl font-black text-gray-400 sm:text-2xl">
-					Resume
-				</h3>
-				<span className="h-[1.1px] right-0 absolute w-[92%] bg-gray-300 block"></span>
-			</div>
-			<div data-aos="fade-up" className="left flex-1 w-full">
-				<p className=" text-gray-700 font-medium w-[100%]">
-					Here are my experiences and qualifications.
-				</p>
-			</div>
-			{/* card*/}
-			<div className="card-wrapper w-[90%] sm:w-full mt-5 flex md:flex-col sm:gap-5 mx-auto ">
-				<div className="left flex-1 flex items-center justify-center">
-					<fieldset
-						data-aos="zoom-in"
-						className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
-					>
-						<legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-sky-500">
-							Experience
-						</legend>
-						<div className=" relative">
-							{/* design */}
-							<div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
-								<div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-sky-500"></div>
-								<div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
-								<div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-sky-500"></div>
-							</div>
-							{/* design */}
-							<div className=" flex flex-col gap-1 sm:gap-1 border-2 border-sky-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
-								<h1 className="text-[1.4rem] font-semibold sm:text-xl">
-									Manual QA Tester
-								</h1>
-								<span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-									Simulation No Country
-								</span>
-								<span className=" text-[.9rem] font-semibold text-sky-500 sm:text-base">
-									March 2024 - Present
-								</span>
-								<p className=" text-[.9rem] text-justify break-words text-gray-500">
-									Document my development, create, and design Test Plans, Test
-									Cases, and execution schedules to ensure software quality and
-									functionality.
-								</p>
-								<p className=" text-[.9rem] text-justify break-words text-gray-500">
-									I bring experience as a QA Manual Tester, ensuring software
-									quality and proactively resolving issues. I engage closely
-									with development teams to conduct thorough regression testing.
-									Proficient in utilizing tools such as Testlink, Jira, Postman,
-									and Lighthouse, I efficiently manage testing processes.
-									Additionally, I actively contribute to designing testing
-									procedures, maintain comprehensive documentation, and offer
-									constructive feedback to enhance overall software quality.
-								</p>
-							</div>
-							<div className=" flex flex-col gap-1 sm:gap-1 border-2 border-sky-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
-								<h1 className="text-[1.4rem] font-semibold sm:text-xl">
-									Web Developer
-								</h1>
-								<span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-									Andrea Laurino
-								</span>
-								<span className=" text-[.9rem] font-semibold text-sky-500 sm:text-base">
-									April 2023 - Present
-								</span>
-								<p className=" text-[.9rem] text-justify break-words text-gray-500">
-									Highly skilled web developer with expertise in HTML, CSS,
-									JavaScript, and frameworks such as React.js, Bootstrap,
-									Tailwind, MUI. Experienced in MongoDB, Firebase, MySQL
-									databases, and proficient in creating RESTful APIs using
-									Handlebars and Nest.js.
-								</p>
-							</div>
-						</div>
-					</fieldset>
-				</div>
-				<div className="right flex-1 flex items-center justify-center">
-					<fieldset
-						data-aos="zoom-in"
-						className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
-					>
-						<legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-sky-500">
-							Education
-						</legend>
-						<div className=" relative">
-							{/* design */}
-							<div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
-								<div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-sky-500"></div>
-								<div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
-								<div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-sky-500"></div>
-							</div>
-							{/* design */}
-							<div className=" flex flex-col gap-1 border-2 border-sky-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
-								<h1 className="text-[1.4rem] font-semibold sm:text-xl">
-									Full Stack Development Career
-								</h1>
-								<span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-									Coderhouse
-								</span>
-								<span className=" text-[.9rem] font-semibold text-sky-500 sm:text-base">
-									August 2022 - January 2024
-								</span>
-								<p className=" text-[.9rem] text-justify text-gray-500">
-									Full Stack Development Career with courses covering web
-									development, JavaScript, React.js, backend programming (MERN).
-									Gained comprehensive skills to build dynamic web applications.
-								</p>
-								<a
-									href="https://www.coderhouse.com/certificados/65a03882c47b9e49b79a8e65?lang=en"
-									className="w-40 ml-[50%] translate-x-[-50%] text-center bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-sky-500"
-								>
-									<span>Certificate</span>
-								</a>
-							</div>
-							<div className=" flex flex-col gap-1 border-2 border-sky-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
-								<h1 className="text-[1.4rem] font-semibold sm:text-xl">
-									Testing QA Manual
-								</h1>
-								<span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-									Coderhouse
-								</span>
-								<span className=" text-[.9rem] font-semibold text-sky-500 sm:text-base">
-									January 2024 - March 2024
-								</span>
-								<p className=" text-[.9rem] text-justify text-gray-500">
-									As a manual QA tester, I am responsible for conducting
-									comprehensive software testing to identify and report defects.
-									I perform detailed assessments, verify functionality,
-									usability, and ensure the software meets quality standards
-									before release.
-								</p>
-								<a
-									href="https://www.coderhouse.com/certificados/65f347275e329c35748758ac?lang=en"
-									className="w-40 ml-[50%] translate-x-[-50%] text-center bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-sky-500"
-								>
-									<span>Certificate</span>
-								</a>
-							</div>
-						</div>
-					</fieldset>
-				</div>
-			</div>
-		</div>
-	);
+    return (
+        <div id="experiencia" className=" container m-auto   mt-16">
+            {/* heading */}
+            <div data-aos="fade-up" className="relative mb-5">
+                <h3 className=" text-3xl font-black text-gray-400 sm:text-2xl">
+                    Experiencia Laboral
+                </h3>
+                <span className="h-[1.1px] right-0 absolute  w-full bg-gray-300 block"></span>
+            </div>
+            <div data-aos="fade-up" className="left flex-1 w-full">
+                <p className=" text-gray-700 font-medium w-[100%]">
+                A continuación, encontrarás mis experiencias profesionales más recientes, donde me he desempeñado como Tester QA Manual en diversos proyectos, realizando pruebas de API con Postman, documentación de casos de prueba y colaborando estrechamente con equipos de desarrollo.
+                </p>
+            </div>
+
+            <div className="right flex-1 flex items-center justify-center">
+                <fieldset
+                    data-aos="zoom-in"
+                    className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
+                >
+                    <div className=" relative">
+                        {/* design */}
+                        <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
+                            <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-sky-500"></div>
+                            <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
+                            <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-sky-500"></div>
+                        </div>
+                        {/* design */}{" "}
+                        <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-sky-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+                            <h1 className="text-[1.4rem] font-semibold sm:text-xl">
+                                Software QA Leader
+                            </h1>
+                            <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
+                                Igrowker - Madrid, España
+                            </span>
+                            <span className=" text-[.9rem] font-semibold text-sky-500 sm:text-base">
+                                Septiembre 2024 - Noviembre 2024
+                            </span>
+                            <p className="text-[.9rem] text-justify break-words text-gray-500">
+                                Responsable del equipo de QA, liderando la planificación, gestión y supervisión del proceso de calidad. Logros principales:
+                                <ul className="list-disc pl-5 mt-2">
+                                    <li>
+                                        Implementé planes de prueba y criterios de aceptación detallados, asegurando más del 95% de cobertura de los requerimientos funcionales y técnicos de las aplicaciones web.
+                                    </li>
+                                    <li>
+                                        Optimicé la detección de defectos en APIs backend con más de 60 pruebas, incluyendo validaciones de integración, regresión y rendimiento, reduciendo un 30% los errores en producción.
+                                    </li>
+                                    <li>
+                                        Facilité la integración entre equipos mediante comunicación constante con los líderes de cada sector, promoviendo la colaboración y alineando objetivos técnicos y funcionales.
+                                    </li>
+                                    <li>
+                                        Diseñé estrategias de pruebas automatizadas en Postman, acelerando el ciclo de entrega de software.
+                                    </li>
+                                    <li>
+                                        Mejoré la colaboración entre equipos de diseño y desarrollo, logrando un 20% de mejora en los tiempos de resolución de defectos.
+                                    </li>
+                                    <li>
+                                        Desarrollé documentación técnica y funcional precisa, recopilando requerimientos clave y creando guías prácticas que aumentaron la eficiencia del equipo.
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-sky-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+                            <h1 className="text-[1.4rem] font-semibold sm:text-xl">
+                                Software QA Tester
+                            </h1>
+                            <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
+                                Igrowker - Madrid, España
+                            </span>
+                            <span className=" text-[.9rem] font-semibold text-sky-500 sm:text-base">
+                                Julio 2024, Septiembre 2024
+                            </span>
+                            <p className="text-[.9rem] text-justify break-words text-gray-500">
+                                Responsable de garantizar la calidad y funcionalidad de aplicaciones web y servicios backend mediante procesos eficientes. Logros principales:
+                                <ul className="list-disc pl-5 mt-2">
+                                    <li>
+                                        Diseñé pruebas exploratorias y exhaustivas en frontend y backend, asegurando una cobertura superior al 95% del software entregado.
+                                    </li>
+                                    <li>
+                                        Elaboré y gestioné documentación técnica detallada con casos de prueba clave..
+                                    </li>
+                                    <li>
+                                        Implementé una estrategia de testing ágil, mejorando la detección de errores y acelerando la entrega del producto en
+                                        un 20%.
+                                    </li>
+                                    <li>
+                                        Coordiné la planificación y ejecución de pruebas, cumpliendo con los hitos del proyecto y asegurando la entrega puntual
+                                        del producto final.
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-sky-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+                            <h1 className="text-[1.4rem] font-semibold sm:text-xl">
+                                Software QA Tester
+                            </h1>
+                            <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
+                                No Country - Bs As, Argentina
+                            </span>
+                            <span className=" text-[.9rem] font-semibold text-sky-500 sm:text-base">
+                                Mayo 2024 - Junio 2024
+                            </span>
+                            <p className="text-[.9rem] text-justify break-words text-gray-500">
+                                Aseguré la calidad de aplicaciones web y servicios backend mediante metodologías planificadas. Logros principales:
+                                <ul className="list-disc pl-5 mt-2">
+                                    <li>
+                                        Elaboré documentación técnica y funcional, optimizando la eficiencia del equipo.
+                                    </li>
+                                    <li>
+                                        Diseñé y ejecuté casos de prueba para validar funcionalidades clave como búsqueda, reserva y gestión de espacios de coworking.
+                                    </li>
+                                    <li>
+                                        Realicé pruebas exploratorias, identificando defectos y mejorando la experiencia del usuario.
+                                    </li>
+                                    <li>
+                                        Colaboré con diseño y desarrollo para corregir defectos, manteniendo el rendimiento de la plataforma.
+                                    </li>
+                                    <li>
+                                        Gestioné el ciclo completo de pruebas, asegurando la cobertura de funcionalidades críticas.
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    );
 };
 
 export default Resume;
