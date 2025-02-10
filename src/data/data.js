@@ -47,9 +47,19 @@ export const data = [
       { name: "Plan de Pruebas", link: "https://docs.google.com/document/d/1ABoXhSw0fwiaIsXbmMX09D3yrGowc5kTePJ6XAf2hqE/edit?tab=t.0#heading=h.kbko74a1f1qf" },
       { name: "Casos de Prueba Frontend", link: "https://docs.google.com/spreadsheets/d/1yAjZw--_bbOlIpbebR2oiNJ2ZEFMK_CPVEg-HaZM1W8/edit?gid=778443299#gid=778443299" },
       { name: "Casos de Prueba Backend", link: "https://docs.google.com/spreadsheets/d/1bd0Vqzhf2_eu5_asX7xz41U-XWHSNYd-vBVKqB5FjiE/edit?usp=drive_link" },
-      { name: "Reporte de Bugs", link: "https://docs.google.com/spreadsheets/d/16dDX4058OPk1zweLCvH8u4BBVyTa_DTRjXsnnArnRkI/edit?usp=drive_link" },
-      { name: "Reporte de Rendimiento y Accesibilidad", link: "https://docs.google.com/document/d/1VDw3YgTpNp4aFWDH9rg0kTMRP-TgG0u7wxZ8qiQBWak/edit?tab=t.0" }
+      { name: "Reporte de Bugs", link: "https://docs.google.com/spreadsheets/d/16dDX4058OPk1zweLCvH8u4BBVyTa_DTRjXsnnArnRkI/edit?usp=drive_link" }
+      // { name: "Reporte de Rendimiento y Accesibilidad", link: "https://docs.google.com/document/d/1VDw3YgTpNp4aFWDH9rg0kTMRP-TgG0u7wxZ8qiQBWak/edit?tab=t.0" }
     ],
     link: ""
+  },
+  {
+    id: 4,
+    title: "StudioChic",
+    img: "https://i.postimg.cc/26HRXjNJ/Captura-de-pantalla-2025-02-09-214338.png",
+    desc: "StudioChic es un ecommerce creado para brindar una experiencia de compra intuitiva y segura. En el desarrollo del proyecto, implementé pruebas automatizadas con Cypress para garantizar el correcto funcionamiento de las funcionalidades clave, como el login, registro, carrito de compras y visualización de productos.",
+    documents: [
+      { name: "Framework de pruebas automatizadas E2E", link: "https://github.com/Andrea-Laurino/StudioChic-Pruebas-Automatizadas" }
+    ],
+    link: "https://react-js-51180-studio-chic.vercel.app/"
   }
 ];
