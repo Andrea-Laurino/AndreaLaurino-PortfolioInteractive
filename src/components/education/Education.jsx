@@ -115,6 +115,8 @@ const Education = () => {
                             </div>
                         </div>
                     </fieldset>
+                </div>
+                <div className="left flex-1 flex justify-center">
                     <fieldset
                         data-aos="zoom-in"
                         className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
